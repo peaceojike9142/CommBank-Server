@@ -28,3 +28,12 @@ public class Goal
     [BsonRepresentation(BsonType.ObjectId)]
     public string? UserId { get; set; }
 }
+// Goal.cs
+
+public class Goal
+{
+
+    // ..
+
+    public string? Icon { get; set; }
+}
